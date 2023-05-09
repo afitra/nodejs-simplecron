@@ -15,7 +15,7 @@ var cron = require('node-cron');
      
     
     // process query
-    count=file.data.count
+    count=await file.data.count
     count++
     
     
